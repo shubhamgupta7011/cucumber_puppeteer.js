@@ -1,0 +1,19 @@
+{
+    "token": "${rp.token}",
+    "endpoint": "${rp.endpoint}/api/v1",
+    "launch": "${rp.launch}",
+    "project": "${rp.your_project}",
+    "takeScreenshot": "onFailure",
+    "description": "Awesome launch description.",
+    "attributes": [
+      {
+        "key": "launchAttributeKey",
+        "value": "launchAttributeValue"
+      }
+    ],
+    "mode": "DEFAULT",
+    "debug": false,
+    "restClientConfig": {
+      "timeout": 0
+    }
+  }
